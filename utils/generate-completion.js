@@ -1,7 +1,7 @@
 import config from '../config/index.js';
 import { MOCK_TEXT_OK } from '../constants/mock.js';
 import {
-  createChatCompletion, createTextCompletion, FINISH_REASON_STOP, MODEL_GPT_3_5_TURBO,
+  createChatCompletion, createTextCompletion, FINISH_REASON_STOP, MODEL_GPT_3_5_TURBO, MODEL_GPT_4,
 } from '../services/openai.js';
 
 class Completion {
